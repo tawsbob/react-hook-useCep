@@ -1,6 +1,6 @@
 {
   "name": "react-hook-usecep",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a react hook to get address information",
   "main": "dist/index.js",
   "scripts": {
