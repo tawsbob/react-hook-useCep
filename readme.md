@@ -25,7 +25,7 @@ function MyReactComponent(){
 	//then set cep on hook
 	const  status = useCep(cep)
 
-	return (...)
+	return (<input type="text" onBlur={(e)=>{ setCep(e.target.value) }} />)
 }
 ```
 ### Status object 
