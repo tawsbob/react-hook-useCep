@@ -2,7 +2,7 @@
   "name": "react-hook-usecep",
   "version": "1.0.1",
   "description": "a react hook to get address information",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode development"
