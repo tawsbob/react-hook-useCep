@@ -31,9 +31,9 @@ function MyReactComponent(){
 ### Status object 
 ```json
 {
-	loading: false,
-	error: false,
-	data: {
+	"loading": false,
+	"error": false,
+	"data": {
 		  "cep": "01001-000",
 		  "logradouro": "Praça da Sé",
 		  "complemento": "lado ímpar",
