@@ -4,7 +4,7 @@ useCep is a react **hook** for get address information from [viacep](https://via
 
 ## Installation
 
-```javascript
+```bash
 npm install react-hook-usecep -S
 ```
 
@@ -19,11 +19,8 @@ import useCep from 'react-hook-usecep';
 ```javascript
 function MyReactComponent(){
 
-	//create state to store cep
-	const [ cep, setCep ] = useState(null)
-	//then set cep on hook
-	const  status = useCep(cep)
 
+	const [status, setCep] =  useCep()
 	return (<input type="text" onBlur={(e)=>{ setCep(e.target.value) }} />)
 }
 ```

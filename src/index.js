@@ -8,8 +8,9 @@ async function getCep(cep){
     return await response.json()
 }
 
-function useCep(cep) {
+function useCep(  ) {
 
+  const [ cep, setCep ] = useState(null)
   const [status, setStatus] = useState(initialStatus)
 
   useEffect(async () => {
@@ -28,7 +29,7 @@ function useCep(cep) {
   }, [ cep ]);
 
 
-  return status
+  return [status, setCep]
  
 }
 
